@@ -9,8 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="../dist/reveal.css">
-    <link rel="stylesheet" href="../dist/theme/black.css" id="theme">
-    <link rel="stylesheet" href="../plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="../dist/theme/serif.css" id="theme">
 </head>
 
 <body>
@@ -32,13 +31,18 @@
         </div>
     </div>
     <script src="../dist/reveal.js"></script>
-    <script src="../plugin/highlight/highlight.js"></script>
     <script>
+
+        // Full list of configuration options:
+        // https://revealjs.revealjs.com/config/
         Reveal.initialize({
             center: true,
-            hash: true,
-            plugins: [RevealHighlight]
+
+            transition: 'linear',
+            // transitionSpeed: 'slow',
+            // backgroundTransition: 'slide'
         });
+
     </script>
 
 </body>
