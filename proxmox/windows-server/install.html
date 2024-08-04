@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>reveal.js - Auto Animate</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="../dist/reveal.css">
+    <link rel="stylesheet" href="../dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="../plugin/highlight/monokai.css">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <p>First Slide</p>
+            </section>
+            <!-- Example for left align the whole section -->
+            <!-- <section style="text-align: left;"> -->
+            <section>
+                <p>Fragments</p>
+                <ol>
+                    <li class="fragment fade-in-then-semi-out fade-down">Create Virtual Machine</li>
+                    <li class="fragment fade-in-then-semi-out fade-down">Download Windows</li>
+                    <li class="fragment fade-in-then-semi-out fade-down">Download VirtIo</li>
+                </ol>
+            </section>
+        </div>
+    </div>
+    <script src="../dist/reveal.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
+    <script>
+        Reveal.initialize({
+            center: true,
+            hash: true,
+            plugins: [RevealHighlight]
+        });
+    </script>
+
+</body>
+
+</html>
